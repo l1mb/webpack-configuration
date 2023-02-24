@@ -3,19 +3,11 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb",
-        "airbnb-typescript"
-    ],
-    "overrides": [
-    ],
+    "extends": ["plugin:react/recommended", "airbnb", "airbnb-typescript"],
+    "overrides": [],
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    }
+    "plugins": ["react"],
+    "rules": {}
 }
